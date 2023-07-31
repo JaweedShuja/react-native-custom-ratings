@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/JaweedShuja/react-native-custom-ratings#readme",
   "devDependencies": {
-    "metro-react-native-babel-preset": "^0.76.3"
+    "metro-react-native-babel-preset": "^0.76.3",
+    "standard": "^17.1.0"
   }
 }
