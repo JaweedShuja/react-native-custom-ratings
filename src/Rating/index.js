@@ -162,9 +162,7 @@ function extractRatingCounts() {
                         fontSize:windowWidth * 0.095,
                         fontFamily:primaryFontFamily,
                     }}>{getAverageRating()}</Text>
-                    <View style={{flexDirection:'row', height:20}}>
-                        {printStar(getAverageRating())}
-                    </View>
+                    <View style={{flexDirection:'row', height:20}}>{printStar(getAverageRating())}</View>
                     <Text style={{
                         fontSize:primaryFontSize,
                         color:"#666666",
